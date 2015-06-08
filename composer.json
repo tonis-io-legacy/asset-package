@@ -1,0 +1,38 @@
+{
+    "name": "tonis/asset",
+    "authors": [
+        {
+            "name": "Kyle Spraggs",
+            "email": "theman@spiffyjr.me"
+        }
+    ],
+    "description": "Tonis\\Asset is a light-weight, HHVM compatible, and dependency lite package manager.",
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=5.5",
+        "kriswallsmith/assetic": "^1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.0",
+        "squizlabs/php_codesniffer": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tonis\\Asset\\": [
+                "src/"
+            ]
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tonis\\Asset\\": [
+                "test/"
+            ]
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
